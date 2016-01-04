@@ -1,14 +1,16 @@
 # Git-tips
 
+GitHub is a great resource for version control and collaborating with teams! The following offers a brief index of frequently used commands, as well as links for further learning.
+
 ##Frequently used git commands:
 $ git init
 * Initializes new directory and tells Git to start monitoring the current folder you're in (do not use this command w/in your home directory)
 
 $ git add .
-* adds changes in working folder to be staged for next commit. You can also specify a specific path to a directory/file.
+* adds changes in working folder to be staged for next commit. You can also specify a specific path to a directory/file. Some refer to adding your changes as "staging" them for a commit.
 
 $ git commit -m "commit message here"
-* Commit all staged files to the timeline.  -m option allows you to include a message describing changes
+* Commit all staged files to the timeline.  -m option allows you to include a message describing changes. You can think of a commit as a "snapshot" of your project at that specific moment in time. Git logs allow you to "time travel" back to a specific commit of your code, which can be very helpful for debugging!
 
 $ git push origin master
 * Sends local changes to tracked remote repository
@@ -36,6 +38,9 @@ $ git clone http://path/to/repo
 $ git remote add origin / upstream master [url]
 * adds a remote or upstream master so that can pull in new changes to keep your local copy up-to-date
 
+$ git remote -v
+* shows a list of all the existing remote repositories for the working directory
+
 $ git pull upstream master
 * pulls updates from upstream repo
 
@@ -47,35 +52,30 @@ $ git merge "name of branch"
 
 * Note: A pull request is like a merge that requires permission from the repo's administrator. You can push your feature branch up, and then submit a pull request via github.
 
-**A scenario (taken from GA):** You're starting a new app. You create a local repo and a repo on Github, create a readme file, and put it on Github. Then you run into Juan, who's already done a lot of the work you were planning to do. You want to pull his code down and include it in your repo, and put your combined code up on your Github repo.
 
-$ git init project-repo
+##Helpful Links:
 
-$ cd project-repo
+#GitHub Desktop:
+* Provides a desktop application interface for users who prefer not to use their terminal command line. Could also be a good resource for PC/Windows users.
+https://desktop.github.com/
 
-$ git remote add origin git@github.com/username/project-repo.git
-
-$ touch README.md
-
-$ git add .
-
-$ git commit -m "initial commit"
-
-$ git push origin master
-
-$ git remote add juan git@github.com/juan/project-repo.git
-
-$ git fetch juan
-
-$ git merge juan/feature
-
-$ git push origin master
-
-#Helpful tutorial on git workflow:
+#Tutorial on Git workflow:
 https://guides.github.com/introduction/flow/
 
-#Helpful tutorial on synching:
+#Comparing methods for Git workflow with teams:
+https://www.atlassian.com/git/tutorials/comparing-workflows
+
+#Using branches:
+https://www.atlassian.com/git/tutorials/using-branches/
+
+#Interactive tutorial on Git branching:
+http://pcottle.github.io/learnGitBranching/
+
+#Tutorial on synching:
 https://www.atlassian.com/git/tutorials/syncing/
 
-#Helpful link on working with remote repositories:
+#Working with remote repositories:
 https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
+
+#Merging versus Rebasing:
+https://www.atlassian.com/git/tutorials/merging-vs-rebasing/conceptual-overview
