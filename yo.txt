@@ -1,1 +1,3 @@
 Sample text file for git-tips
+
+ahofmann test text add -- oh wow this is so helpful
