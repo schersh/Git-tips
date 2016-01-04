@@ -1,4 +1,4 @@
-# Git-tips
+#Git-tips
 
 GitHub is a great resource for version control and collaborating with teams! The following offers a brief index of frequently used commands, as well as links for further learning.
 
@@ -53,29 +53,29 @@ $ git merge "name of branch"
 * Note: A pull request is like a merge that requires permission from the repo's administrator. You can push your feature branch up, and then submit a pull request via github.
 
 
-##Helpful Links:
+#Helpful Links:
 
-#GitHub Desktop:
+##GitHub Desktop:
 * Provides a desktop application interface for users who prefer not to use their terminal command line. Could also be a good resource for PC/Windows users.
 https://desktop.github.com/
 
-#Tutorial on Git workflow:
+##Tutorial on Git workflow:
 https://guides.github.com/introduction/flow/
 
-#Comparing methods for Git workflow with teams:
+##Comparing methods for Git workflow with teams:
 https://www.atlassian.com/git/tutorials/comparing-workflows
 
-#Using branches:
+##Using branches:
 https://www.atlassian.com/git/tutorials/using-branches/
 
-#Interactive tutorial on Git branching:
+##Interactive tutorial on Git branching:
 http://pcottle.github.io/learnGitBranching/
 
-#Tutorial on synching:
+##Tutorial on synching:
 https://www.atlassian.com/git/tutorials/syncing/
 
-#Working with remote repositories:
+##Working with remote repositories:
 https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
 
-#Merging versus Rebasing:
+##Merging versus Rebasing:
 https://www.atlassian.com/git/tutorials/merging-vs-rebasing/conceptual-overview
